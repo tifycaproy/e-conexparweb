@@ -51,7 +51,7 @@
 			</div>
 			{{--  --}}
 			{{-- BUSCADOR SOLO VISIBLE EN DISPOSITIVOS GRANDES--}}
-			<div class="uk-width-auto uk-flex uk-flex-center uk-flex-middle uk-visible@m">
+			<div class="uk-width-1-1 uk-flex uk-flex-center uk-flex-middle uk-visible@m">
 				<div class="uk-inline ">
 					<span class="fas fa-search uk-form-icon uk-margin-small-top uk-margin-small-left"></span>
 				    <input class="uk-input" name="search" placeholder="Buscar en la tienda">
@@ -86,38 +86,42 @@
 	{{-- FIN HEADER --}}
 	{{-- MENU --}}
 		{{-- MENU  --}}
-			<nav class="uk-navbar-container bg-primary uk-visible@m" style="height: 50px" uk-navbar>
-
-			    <div class="uk-navbar-left" >
-
-			        <ul class="uk-navbar-nav " >
-			            <li class="uk-active"><a href="#">Inicio</a></li>
-			            <li>
-			                <a href="#">Categorias</a>
-			                <div class="uk-navbar-dropdown">
-			                    <ul class="uk-nav uk-navbar-dropdown-nav">
-			                        <li class="uk-active"><a href="#">Active</a></li>
-			                        <li><a href="#">Item</a></li>
-			                        <li><a href="#">Item</a></li>
-			                    </ul>
-			                </div>
-			            </li>
-			            <li><a href="#">Tus Compras</a></li>
-			        </ul>
-
-			    </div>
-
-			    <div class="uk-navbar-right">
-
-			        <ul class="uk-navbar-nav">
-			            <li class=""><a href="#"><i class="fa fa-plus margin-xsmall-right"></i>  Crea tu cuenta</a></li>
-			            <li><a href="#"><i class="fa fa-user margin-xsmall-right"></i> Ingresa</a></li>
-			            <li><a href="#"><i class="fa fa-info margin-xsmall-right"></i> Ayuda</a></li>
-			        </ul>
-
-			    </div>
+		
+			<nav class="  bg-primary uk-visible@m" style="height: 50px" uk-navbar>
+				<div class=" uk-container uk-container-expand uk-flex uk-flex-between" style="width: 90%">
+					<div class="uk-width-auto " >
+				        <ul class="uk-navbar-nav " >
+				            <li class="uk-active"><a href="#">Inicio</a></li>
+				            <li>
+				                <a href="#">Categorias</a>
+				                <div class="uk-navbar-dropdown uk-width-1-2">
+				                    <ul class="uk-nav uk-navbar-dropdown-nav">
+				                        <li><a href="#">Categoría 1</a></li>
+				                        <li><a href="#">Categoría 2</a></li>
+				                        <li><a href="#">Categoría 3</a></li>
+				                        <li><a href="#">Categoría 4</a></li>
+				                        <li><a href="#">Categoría 5</a></li>
+				                        <li><a href="#">Categoría 6</a></li>
+				                    </ul>
+				                </div>
+				            </li>
+				            <li><a href="#">Tus Compras</a></li>
+				        </ul>
+				    </div>
+				
+				    <div class="uk-width-auto">
+				        <ul class="uk-navbar-nav">
+				            <li class=""><a href="#"><i class="fa fa-plus margin-xsmall-right"></i>  Crea tu cuenta</a></li>
+				            <li><a href="#"><i class="fa fa-user margin-xsmall-right"></i> Ingresa</a></li>
+				            <li><a href="#"><i class="fa fa-info margin-xsmall-right"></i> Ayuda</a></li>
+				        </ul>
+				    </div>
+				</div>
+			    
 
 			</nav>
+		
+			
 		{{--  --}}
 		{{-- MENU OCULTO --}}
 	    <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
