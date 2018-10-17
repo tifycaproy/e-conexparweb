@@ -1,0 +1,96 @@
+
+/* Smartphones (portrait and landscape) ———– */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.logo{
+		width: 80px;
+	}
+
+}
+
+/* Smartphones (landscape) ———– */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ———– */
+@media only screen
+and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ———– */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (min-width : 768px)
+ {
+	.position-right{
+		bottom: 0 !important;
+		right: 5% !important;
+		position: absolute !important;
+		transform: none !important;
+		left: unset;
+		top: unset;
+		text-align: right !important;
+	}
+	.title-head{
+		font-size: 4rem;
+	}
+	.subtitle-head{
+		font-size: 3rem;
+	}
+}
+
+/* iPads (landscape) ———– */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ———– */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ———– */
+@media only screen
+and (min-width : 1224px) {
+	.position-right{
+		bottom: 0 !important;
+		right: 5% !important;
+		position: absolute !important;
+		transform: none !important;
+		left: unset;
+		top: unset;
+		text-align: right !important;
+	}
+	.title-head{
+		font-size: 4rem;
+	}
+	.subtitle-head{
+		font-size: 3rem;
+	}
+}
+
+/* Large screens ———– */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ———– */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+.logo{
+		width: 80px;
+	}
+}
